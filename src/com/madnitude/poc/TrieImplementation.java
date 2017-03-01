@@ -1,3 +1,4 @@
+package com.madnitude.poc;
 import java.util.HashMap;
 import java.util.Iterator;
 import java.util.Map;
@@ -32,15 +33,15 @@ public class TrieImplementation {
 		}
 
 	}
-	
-	/*public void printTrie(Node root, int increment){
-		while(root!=null){
-			Map<Character, Node> temp  = root.getNext();
-			
+
+	public void printTrie(Node root) {
+		while (root.getNext() != null) {
+			Map<Character, Node> temp = root.getNext();
+
 			Iterator<Character> it = temp.keySet().iterator();
-			while(it.hasNext()){
+			while (it.hasNext()) {
 				System.out.println(temp.get(it.next()));
 			}
 		}
-	}*/
+	}
 }

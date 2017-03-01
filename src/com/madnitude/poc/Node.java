@@ -1,3 +1,4 @@
+package com.madnitude.poc;
 import java.util.Map;
 import java.util.HashMap;
 
