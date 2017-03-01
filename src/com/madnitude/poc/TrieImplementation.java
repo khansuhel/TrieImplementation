@@ -34,7 +34,7 @@ public class TrieImplementation {
 
 	}
 
-	public void printTrie(Node root) {
+/*	public void printTrie(Node root) {
 		while (root.getNext() != null) {
 			Map<Character, Node> temp = root.getNext();
 
@@ -43,5 +43,5 @@ public class TrieImplementation {
 				System.out.println(temp.get(it.next()));
 			}
 		}
-	}
+	}*/
 }
